@@ -96,7 +96,7 @@ constant TMR_VAL_MAX : std_logic_vector(3 downto 0) := "1001"; --9
 constant RESET_CNTR_MAX : std_logic_vector(17 downto 0) := "110000110101000000";-- 100,000,000 * 0.002 = 200,000 = clk cycles per 2 ms
 
 
-constant WELCOME_STR : CHAR_ARRAY(0 to 16) :=                (X"0A",  --\n
+constant WELCOME_STR : CHAR_ARRAY(0 to 22) :=                (X"0A",  --\n
                                                               X"0D",  --\r
                                                               X"41",  --A
                                                               X"52",  --R
